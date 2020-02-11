@@ -11,10 +11,10 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="main-header">
-      <div class="menu-top">
-        <a class="logo-back"
-          ><img src="img/invalid-name.svg" width="109" height="19" alt="Логотип"
+    <header class="header">
+      <nav class="nav">
+      <div class="container">
+        <a class="header-logo"><img src="img/invalid-name.svg" width="109" height="19" alt="Логотип"
         /></a>
         <label>
           <svg
@@ -31,20 +31,20 @@
           Поиск</label
         >
         <input type="search" name="search" />
-        <a href="">Закладки: 0</a>
-        <a href="">Корзина: 0</a>
-        <a class="make-order-button" href="">Оформить заказ</a>
+        <a class="user-bookmarks" href="">Закладки: 0</a>
+        <a class="user-cart" href="">Корзина: 0</a>
+        <a class="user-order" href="">Оформить заказ</a>
       </div>
       <div>
         <p>
           Интернет-магазин строительных материалов и инструментов для ремонта
         </p>
       </div>
-      <address class="phone-back">
+      <address>
         <p>
-          <a class="numbers" href="tel:+78125550555">+7 (812) 555-05-55</a>
+          <a href="tel:+78125550555">+7 (812) 555-05-55</a>
         </p>
-        <p class="address">
+        <p>
           г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
         </p>
       </address>
@@ -57,7 +57,6 @@
             viewBox="0 0 20 17"
           >
             <path
-              class="login"
               fill="#c5c5c5"
               d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"
             />
@@ -67,8 +66,7 @@
         <a href="">Регистрация</a>
       </div>
 
-      <nav>
-        <ul class="menu-center">
+        <ul>
           <li><a href="index.html">Главная</a></li>
           <li><a href="company.html">Компания</a></li>
           <li><a href="catalog.html">Каталог</a></li>
@@ -79,101 +77,275 @@
         </ul>
       </nav>
     </header>
-    <!--
-<div>
-  <h2>Материалы</h2>
-  <a href="">НА ЛЮБОЙ ВКУС</a>
-</div>
-<div>
-  <h2>Инструмент</h2>
-  <a href="">НА ВСЕ СЛУЧАИ</a>
-</div>
-<div>
-  <h2>Техника</h2>
-  <a href="">ДЛЯ СТРОЙКИ</a>
-</div>
-<div>
-  <h2>Скидки 50%</h2>
-  <a href="">НА 350 ТОВАРОВ</a>
-</div>
-<div>
-  <h2>Доставка</h2>
-  <a href="">БЕСПЛАТНО</a>
-</div>
-<div>
-  <h2>Дрели</h2>
-  <p>Соседям на радость!</p>
-  <a href="">ОТКРЫТЬ КАТАЛОГ</a>
-  <img src="" weidth="" heihgt="">
-</div>
-<div>
-  <h2>ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
-  <a href="">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
-</div>
 
-<div>
-  <h2>Перфоратор BOSH BFG 9000</h2>
-  <img src="" width="" height="">
-  <div>32500 Р.</div>
-  <div>25500 Р.</div>
-</div>
-
-<div>
-  <h2>Перфоратор BOSH BFG 3000</h2>
-  <img src="" width="" height="">
-  <div>22500 Р.</div>
-  <div>15500 Р.</div>
-</div>
-
-<div>
-  <h2>Перфоратор BOSH BFG 6000</h2>
-  <img src="" width="" height="">
-  <div>30500 Р.</div>
-  <div>25500 Р.</div>
-</div>
-
-<div>
-  <h2>Перфоратор BOSH BFG 2000</h2>
-  <img src="" width="" height="">
-  <div>12500 Р.</div>
-</div>
-
-<div>
-  <h2>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ</h2>
-  <a href="">ВСЕ ПРОИЗВОДИТЕЛИ</a>
-</div>
-
-<div>
-  <img src="" width="" height="">
-  <img src="" width="" height="">
-  <img src="" width="" height="">
-  <img src="" width="" height="">
-  <img src="" width="" height="">
-  <img src="" width="" height="">
-  <img src="" width="" height="">
-  <img src="" width="" height="">
-</div>
-
+    <main>
+      <h1>
+        «Техномарт» — Интернет-магазин строительных материалов и инструментов
+        для ремонта
+      </h1>
+        <div>
+          <ul>
+            <li>
+              <div>New</div>
+              <p>Материалы</p>
+              <a href="#">на любой вкус</a>
+            </li>
+            <li>
+              <p>Инструмент</p>
+              <a href="#">на все случаи</a>
+            </li>
+            <li>
+              <p>Техника</p>
+              <a href="#">для стройки</a>
+            </li>
+          </ul>
+          <div>
+            <div>
+              <div>
+                <p>Перфораторы</p>
+                <p>
+                  Настоящие мужские игрушки!
+                </p>
+                <a href="catalog.html"
+                  >Открыть каталог</a
+                >
+                <a href="#">
+                  <img
+                    src="img/slide-1.jpg"
+                    width="620"
+                    height="266"
+                    alt="Slider-1"
+                  />
+                </a>
+              </div>
+              <div>
+                <p>Дрели</p>
+                <p>Соседям на радость!</p>
+                <a href="catalog.html"
+                  >Открыть каталог</a
+                >
+                <a href="#">
+                  <img
+                    src="img/slide-2.jpg"
+                    width="620"
+                    height="266"
+                    alt="Slider-2"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div>
+        <ul>
+          <li>
+            <p>Скидка 50%</p>
+            <a href="#">на 350 товаров</a>
+          </li>
+          <li>
+            <p>Доставка</p>
+            <a href="#">бесплатно</a>
+          </li>
+        </ul>
+  </div>
 <section>
-  <h2>СЕРВИСЫ</h2>
-  <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
-    Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+  <div>
+    <div>
+      <h2>Популярные товары:</h2>
+      <a href="#">Все популярные товары</a>
+    </div>
+    <ul>
+      <li>
+        <img
+          src="img/product-1.jpg"
+          alt="BOSCH BFG 9000"
+          width="218"
+          height="137"
+        />
+        <div>
+          <a href="#">Купить</a>
+          <a href="#">В закладки</a>
+        </div>
+        <h3><span>Перфоратор BOSCH</span> BFG 9000</h3>
+        <del>32500 Р.</del>
+        <a href="#">25500 Р.</a>
+      </li>
+      <li>
+        <img
+          src="img/product-2.jpg"
+          alt="BOSCH BFG 3000"
+          width="218"
+          height="137"
+        />
+        <div>
+          <a href="#">Купить</a>
+          <a href="#">В закладки</a>
+        </div>
+        <h3><span>Перфоратор BOSCH</span> BFG 3000</h3>
+        <del>22500 Р.</del>
+        <a href="#">15500 Р.</a>
+      </li>
+      <li>
+        <img
+          src="img/product-3.jpg"
+          alt="BOSCH BFG 6000"
+          width="218"
+          height="137"
+        />
+        <div>
+          <a href="#">Купить</a>
+          <a href="#">В закладки</a>
+        </div>
+        <h3><span>Перфоратор BOSCH</span> BFG 6000</h3>
+        <del>30500 Р.</del>
+        <a href="#">25500 Р.</a>
+      </li>
+      <li>
+        <div>new</div>
+        <div>
+          <a href="#">Купить</a>
+          <a href="#">В закладки</a>
+        </div>
+        <img
+          src="img/product-2.jpg"
+          alt="BOSCH BFG 2000"
+          width="218"
+          height="137"
+        />
+        <h3><span>Перфоратор BOSCH</span> BFG 2000</h3>
+        <del>0 Р.</del>
+        <a href="#">12500 Р.</a>
+      </li>
+    </ul>
+  </div>
 </section>
-
 <section>
-  <label>Доставка</label>
-  <label>Гарантия</label>
-  <label>Кредит</label>
+  <div>
+    <div>
+      <h2>Популярные производители:</h2>
+      <a href="#">Все производители</a>
+    </div>
+    <ul>
+      <li>
+        <a href="#">
+          <img
+            src="img/bosch.jpg"
+            alt="BOSCH"
+            width="126"
+            height="37"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img
+            src="img/makita.jpg"
+            alt="Makita"
+            width="123"
+            height="40"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img
+            src="img/de-walt.jpg"
+            alt="DeWalt"
+            width="146"
+            height="44"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img
+            src="img/interskol.jpg"
+            alt="Интерскол"
+            width="184"
+            height="32"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img
+            src="img/hitachi.jpg"
+            alt="HITACHI"
+            width="169"
+            height="31"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/lg.jpg" alt="LG" width="121" height="73" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img
+            src="img/aeg.jpg"
+            alt="AEG"
+            width="151"
+            height="96"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img
+            src="img/metabo.jpg"
+            alt="metabo"
+            width="204"
+            height="69"
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
 </section>
+    <section>
+      <h2>Сервисы</h2>
+      <p>
+        Хороший интернет-магазин отличается от плохого не только ценами!<br />
+        Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+      </p>
+    </section>
 
-<section>
-  <h2>Доставка</h2>
-  <p>Мы с удовольствием доставим ваш товар прямо<br>
-    к вашему подъезду совершенно бесплатно!<br>
-    Ведь мы неплохо заработаем,<br>
-    поднимая его на ваш этаж!</p>
-</section>
--->
+    <div>
+      <label>Доставка</label>
+      <label>Гарантия</label>
+      <label>Кредит</label>
+    </div>
+
+    <section>
+      <h2>Доставка</h2>
+      <p>
+        Мы с удовольствием доставим ваш товар прямо<br />
+        к вашему подъезду совершенно бесплатно!<br />
+        Ведь мы неплохо заработаем,<br />
+        поднимая его на ваш этаж!
+      </p>
+    </section>
+  <section>
+    <h3>Гарантия</h3>
+    <p>
+      Если купленный у нас товар поломается или заискрит, а также
+      в случае пожара, спровоцированного его возгаранием, вы
+      всегда можете быть уверены в нашей гарантии. Мы обменяем
+      сгоревший товар на новый. Дом уж восстановите как-нибудь
+      сами.
+    </p>
+  </section>
+  <section>
+    <h3>Кредит</h3>
+    <p>
+      Залезть в долговую яму стало проще! <br />
+      Кредитные консультанты придут вам на помощь.
+    </p>
+    <a href="#"> Отправить заявку </a>
+  </section>
+
     <section>
       <h2>Компания "Техномарт"</h2>
       <p>
@@ -206,6 +378,7 @@
       /></a>
       <a href="">Заблудились? Напишите нам!</a>
     </section>
+    </main>
 
     <footer>
       <a href=""
