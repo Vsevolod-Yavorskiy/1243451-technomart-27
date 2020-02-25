@@ -1,20 +1,23 @@
-body {
-  min-width: 1200px;
-  margin: 0;
-  padding: 0;
-  font-size: 13px;
-  line-height: 24px;
-  font-family: "PT Sans", sans-serif;
-}
-a {
-  text-decoration: none;
-}
-img {
-  max-width: 100%;
-  height: auto;
+/* Header */
+
+.header-menu {
+  background-color: #33445a;
 }
 
-/* Header */
+.header-menu a {
+  display: block;
+}
+
+.header-info {
+  padding-top: 47px;
+  padding-bottom: 24px;
+}
+
+.page-nav {
+  padding-bottom: 63px;
+  background-color: #f4f7f9;
+}
+
 .header-logo {
   position: relative;
   display: block;
@@ -47,13 +50,93 @@ img {
   background-color: #c23f42;
 }
 
-.header-search-form {
+.header-search {
   position: relative;
   width: 270px;
   margin: 0;
   padding: 0;
 }
-/* Контейнер */
+
+.header-search input {
+  width: 100%;
+  min-height: 42px;
+  padding-left: 50px;
+  color: inherit;
+  background: #33445a;
+  border: none;
+  transition: 200ms all;
+}
+
+.header-search input:focus {
+  color: #000000;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.header-search input::placeholder {
+  color: #ffffff;
+}
+
+.header-search svg {
+  position: absolute;
+  top: 50%;
+  left: 17px;
+  margin-top: -7px;
+}
+
+.header-search path {
+  opacity: 0.3;
+  fill: #ffffff;
+}
+
+.header-search input:focus + svg > path {
+  opacity: 1;
+  fill: #ee3643;
+}
+
+.header-company {
+  margin: 0;
+  padding: 0;
+  padding-top: 1px;
+  padding-left: 52px;
+  font-size: 16px;
+  line-height: 23px;
+  font-family: "Cuprum", sans-serif;
+  color: #ff5357;
+  font-style: italic;
+}
+
+.header-contacts {
+  padding-left: 7px;
+}
+
+.header-numbers {
+  width: 270px;
+  margin: 0;
+  padding: 0;
+  padding-top: 9px;
+  padding-bottom: 5px;
+  padding-left: 70px;
+  border: 3px solid #ffffff;
+}
+
+.header-numbers a {
+  font-size: 21px;
+  line-height: 18px;
+  font-family: "Cuprum", sans-serif;
+  color: #fb463c;
+}
+
+.header-location {
+  margin-top: 4px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Cuprum", sans-serif;
+  color: #3d546e;
+}
+
+/* Container */
 
 .container {
   width: 960px;
@@ -61,41 +144,14 @@ img {
   padding: 0 10px;
 }
 
-.map-modal-container {
-  position: relative;
-}
-
-.form-write-us .form-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 55px 80px 0 80px;
-}
-
-/* Страницы */
-
-.page-nav {
-  padding-bottom: 63px;
-  background-color: #f4f7f9;
-}
-.page-header-bar {
-  background-color: #33445a;
-}
-.page-header-bar .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.header-menu .container {
   display: flex;
   font-size: 17px;
   line-height: 18px;
   font-family: "Cuprum";
 }
-.page-header-bar a {
-  display: block;
-}
 
-/* Закладки */
+/*  Закладки корзина заказ */
 
 .user-bookmarks,
 .user-cart,
@@ -104,14 +160,17 @@ img {
   padding-top: 12px;
   color: #ffffff;
 }
+
 .user-bookmarks {
   position: relative;
   width: 160px;
   padding-left: 44px;
 }
+
 .user-bookmarks:active {
   opacity: 0.6;
 }
+
 .user-bookmarks::before {
   content: "";
   position: absolute;
@@ -120,30 +179,32 @@ img {
   width: 14px;
   height: 16px;
   margin-top: -10px;
-  background-image: url("/img/icon-bookmark.svg");
+  background-image: url("../img/svg/icon-bookmark.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.3;
   transition: 200ms all;
 }
+
 .user-bookmarks:hover::before,
 .user-bookmarks:focus::before {
   opacity: 1;
 }
+
 .user-bookmarks:active::before {
   opacity: 0.6;
 }
-
-/* Корзина */
 
 .user-cart {
   position: relative;
   width: 140px;
   padding-left: 40px;
 }
+
 .user-cart:active {
   opacity: 0.6;
 }
+
 .user-cart::before {
   content: "";
   position: absolute;
@@ -152,31 +213,155 @@ img {
   width: 15px;
   height: 15px;
   margin-top: -10px;
-  background-image: url("/img/cart-icon.svg");
+  background-image: url("../img/svg/icon-cart.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.3;
   transition: 200ms all;
 }
+
 .user-cart:hover::before,
 .user-cart:focus::before {
   opacity: 1;
 }
-.user-cart:active::before {
-  opacity: 0.5;
-}
 
-/* Оформить заказ */
+.user-cart:active::before {
+  opacity: 0.6;
+}
 
 .user-order {
   width: 150px;
   padding-left: 20px;
   background-color: #63a63e;
+  transition: 200ms all;
 }
+
 .user-order:hover,
 .user-order:focus {
   background-color: #5fbb2d;
 }
+
 .user-order:active {
   background-color: #518534;
+}
+
+/* Флексы */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.column {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+}
+
+/* USER */
+
+.user-navigation {
+  display: flex;
+  margin: 0;
+  margin-bottom: 6px;
+  padding-left: 33px;
+  list-style: none;
+}
+
+.user-navigation li {
+  margin-right: 10px;
+}
+
+.user-login,
+.user-register {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  font-size: 21px;
+  font-family: "Cuprum", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  transition: 200ms color;
+}
+
+.user-login {
+  position: relative;
+  width: 120px;
+  padding-left: 47px;
+}
+
+.user-login::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 20px;
+  height: 17px;
+  background-image: url("../img/icon-login.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  transition: 200ms all;
+}
+
+.user-register {
+  width: 150px;
+  padding-left: 25px;
+}
+
+.user-login:hover,
+.user-register:hover,
+.user-login:focus,
+.user-register:focus {
+  color: #ee3643;
+}
+
+.user-login:active,
+.user-register:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* menu-navigation */
+.menu-navigation {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 20px;
+  list-style: none;
+  background-color: #3d546e;
+}
+
+.menu-navigation a {
+  display: block;
+  padding-top: 22px;
+  padding-right: 30px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  font-size: 17px;
+  line-height: 17px;
+  font-family: "Cuprum", sans-serif;
+  color: #ffffff;
+  transition: 200ms all;
+}
+
+.menu-navigation::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #33445a;
+}
+
+.menu-navigation a:hover,
+.menu-navigation a:focus {
+  background-color: #33445a;
+}
+
+.menu-navigation a:active {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #1d2739;
+  border-bottom-color: #1d2739;
 }
