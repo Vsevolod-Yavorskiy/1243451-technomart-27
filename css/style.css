@@ -14,7 +14,7 @@ body {
   padding: 0;
   font-size: 16px;
   line-height: 24px;
-  font-family: "PT Sans", "Arial", sans-serif
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
 }
 
@@ -188,7 +188,7 @@ img {
   display: flex;
   font-size: 17px;
   line-height: 18px;
-  font-family: "Cuprum" "Tahoma",;
+  font-family: "Cuprum" "Tahoma";
 }
 
 /*  Закладки корзина заказ */
