@@ -200,6 +200,8 @@ img {
   padding-top: 12px;
   color: #ffffff;
   text-decoration: none;
+  font-family: "Cuprum", "Tahoma", sans-serif;
+  font-size: 17px;
 }
 
 .user-bookmarks {
@@ -626,7 +628,7 @@ img {
   padding-right: 30px;
   padding-bottom: 18px;
   padding-left: 30px;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 15px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
@@ -892,9 +894,24 @@ input[type="radio"].visually-hidden {
   padding-top: 44px;
 }
 
-.catalog-item .actions a {
+.catalog-item a {
   position: relative;
-  display: block;
+  display: inline-block;
+  width: 135px;
+  padding-top: 6px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: 200ms all;
+}
+
+.actions a {
+  position: relative;
+  display: inline-block;
   width: 135px;
   padding-top: 6px;
   font-family: "Cuprum", "Tahoma", sans-serif;
