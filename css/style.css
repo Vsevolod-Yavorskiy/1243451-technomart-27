@@ -14,12 +14,8 @@ body {
   padding: 0;
   font-size: 16px;
   line-height: 24px;
-  font-family: "PT Sans", "Cuprum", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif
   color: #000000;
-}
-
-body {
-  font-family: "PT Sans", "Tahoma", sans-serif;
 }
 
 a {
@@ -36,7 +32,7 @@ img {
   margin-bottom: 10px;
   font-size: 18px;
   line-height: 18px;
-  font-family: "Cuprum", "PT Sans", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #000000;
 }
 /* Header */
@@ -64,7 +60,7 @@ img {
   display: block;
   padding: 14px 55px 10px;
   font-size: 20px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   background-color: #ff5357;
@@ -141,9 +137,9 @@ img {
   padding-top: 30px;
   padding-left: 52px;
   padding-bottom: 30px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 23px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ff5357;
   font-style: italic;
 }
@@ -167,7 +163,7 @@ img {
 .header-numbers a {
   font-size: 21px;
   line-height: 18px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #fb463c;
 }
 
@@ -176,7 +172,7 @@ img {
   padding-left: 10px;
   font-size: 14px;
   line-height: 24px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #3d546e;
 }
 
@@ -192,7 +188,7 @@ img {
   display: flex;
   font-size: 17px;
   line-height: 18px;
-  font-family: "Cuprum";
+  font-family: "Cuprum" "Tahoma",;
 }
 
 /*  Закладки корзина заказ */
@@ -377,7 +373,7 @@ img {
   margin: 0;
   margin-top: 11px;
   font-size: 36px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #3d546e;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -462,7 +458,7 @@ img {
   list-style: none;
   font-size: 16px;
   line-height: 18px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
 }
 
 .user-navigation-links li {
@@ -508,7 +504,7 @@ img {
   padding-top: 10px;
   padding-bottom: 12px;
   font-size: 21px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #000000;
   background-color: #ffffff;
   transition: 200ms color;
@@ -538,7 +534,7 @@ img {
   padding-top: 10px;
   padding-bottom: 12px;
   font-size: 21px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #000000;
   background-color: #ffffff;
   transition: 200ms color;
@@ -632,7 +628,7 @@ img {
   padding-left: 30px;
   font-size: 15px;
   line-height: 15px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
   text-decoration: none;
 }
@@ -689,7 +685,7 @@ input[type="radio"].visually-hidden {
   width: 200px;
   font-size: 16px;
   line-height: 28px;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-align: center;
   color: #f0f0f0;
   text-transform: lowercase;
@@ -729,7 +725,7 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
 }
 
@@ -743,7 +739,7 @@ input[type="radio"].visually-hidden {
   padding-left: 25px;
   font-size: 14px;
   line-height: 18px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.1);
@@ -901,7 +897,7 @@ input[type="radio"].visually-hidden {
   display: block;
   width: 135px;
   padding-top: 6px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   vertical-align: middle;
   text-align: center;
   text-transform: uppercase;
@@ -1071,7 +1067,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   font-size: 30px;
   line-height: 30px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #3d546e;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -1133,7 +1129,7 @@ input[type="radio"].visually-hidden {
   font: inherit;
   font-size: 14px;
   line-height: 18px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   vertical-align: middle;
   text-align: center;
   color: #ffffff;
@@ -1204,7 +1200,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-bottom: 30px;
   font-size: 30px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   text-transform: uppercase;
   letter-spacing: -1px;
 }
@@ -1261,7 +1257,7 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   font-size: 21px;
   line-height: 31px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
   background-color: #3d546e;
   border-top: 1px solid #485973;
@@ -1283,7 +1279,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-bottom: 31px;
   font-size: 30px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   text-transform: uppercase;
   letter-spacing: -1px;
 }
@@ -1317,7 +1313,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
   font-size: 18px;
   line-height: 20px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
 }
 
 .example-list li::before {
@@ -1366,7 +1362,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   font-size: 16px;
   line-height: 18px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
 }
 
@@ -1383,7 +1379,7 @@ input[type="radio"].visually-hidden {
   padding: 18px 41px 20px 41px;
   font-size: 25px;
   line-height: 30px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   background-color: #ff5357;
@@ -1413,7 +1409,7 @@ input[type="radio"].visually-hidden {
 .site-navigation-footer a {
   font-size: 18px;
   line-height: 24px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #f4f8fa;
   text-decoration: none;
 }
@@ -1443,7 +1439,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   font-size: 18px;
   line-height: 24px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #f4f8fa;
 }
 
@@ -1492,7 +1488,7 @@ input[type="radio"].visually-hidden {
   flex-basis: 110px;
   font-size: 16px;
   line-height: 18px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
 }
 
@@ -1535,7 +1531,7 @@ input[type="radio"].visually-hidden {
   height: 17px;
   font-size: 18px;
   line-height: 24px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffda96;
   text-decoration: none;
 }
@@ -1607,7 +1603,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   font-size: 30px;
   line-height: 40px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #3d546e;
   text-transform: uppercase;
   letter-spacing: -1px;
