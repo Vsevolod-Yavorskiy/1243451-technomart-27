@@ -121,44 +121,48 @@
               <a class="catalog-menu-btn" href="#">для стройки</a>
             </li>
           </ul>
-          <div>
-            <div>
-              <div>
-                <p>Перфораторы</p>
-                <p>
-                  Настоящие мужские игрушки!
-                </p>
-                <a href="catalog.html">Открыть каталог</a>
-                <img
-                  src="img/slide-1.jpg"
-                  width="620"
-                  height="266"
-                  alt="Slider-1"
-                />
-              </div>
-              <div>
-                <p>Дрели</p>
-                <p>Соседям на радость!</p>
-                <a href="catalog.html">Открыть каталог</a>
-                <img
-                  src="img/slide-2.jpg"
-                  width="620"
-                  height="266"
-                  alt="Slider-2"
-                />
+          <div class="row">
+            <div class="column-about-company">
+              <div class="slider">
+                <input type="radio" id="slider-btn-1" name="slide" checked>
+                <input type="radio" id="slider-btn-2" name="slide">
+                <label for="slider-btn-1" class="slider-control-btn slider-prev-btn"></label>
+                <label for="slider-btn-2" class="slider-control-btn slider-next-btn"></label>
+                <div class="slider-controls">
+                  <label for="slider-btn-1"></label>
+                  <label for="slider-btn-2"></label>
+                </div>
+                <div class="slider-inner">
+                  <div class="slider-two">
+                    <div class="slide">
+                      <p class="slide-title">Дрели</p>
+                      <p class="slide-description">Настоящие мужские игрушки!</p>
+                      <a class="button slider-button" href="catalog.html">Открыть каталог</a>
+                      <a href="#">
+                        <img src="img/slide-1.jpg" width="620" height="266" alt="Slide-1">
+                      </a>
+                    </div>
+                    <div class="slide">
+                      <p class="slide-title">Перфораторы</p>
+                      <p class="slide-description">Соседям на радость!</p>
+                      <a class="button slider-button" href="catalog.html">Открыть каталог</a>
+                      <a href="#">
+                        <img src="img/slide-2.jpg" width="620" height="266" alt="Slide-2">
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div>
-          <ul>
-            <li>
+        <div class="column-contacts">
+          <ul class="catalog-menu">
+            <li class="discount">
               <p>Скидка 50%</p>
-              <a href="#">на 350 товаров</a>
+              <a class="catalog-menu-btn" href="#">на 350 товаров</a>
             </li>
-            <li>
+            <li class="delivery">
               <p>Доставка</p>
-              <a href="#">бесплатно</a>
+              <a class="catalog-menu-btn" href="#">бесплатно</a>
             </li>
           </ul>
         </div>
