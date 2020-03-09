@@ -92,6 +92,7 @@ img {
   width: 270px;
   margin: 0;
   padding: 0;
+  font-family: "Cuprum", "Tahoma", sans-serif;
 }
 
 .header-search input {
@@ -134,7 +135,7 @@ img {
 .header-company {
   margin: 0;
   padding: 0;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-left: 52px;
   padding-bottom: 30px;
   font-size: 16px;
@@ -148,6 +149,8 @@ img {
   padding-left: 17px;
   margin-left: 30px;
   margin-top: 50px;
+  margin-right: 40px;
+  margin-bottom: 30px;
 }
 
 .header-numbers {
@@ -199,7 +202,6 @@ img {
   display: block;
   padding-top: 12px;
   color: #ffffff;
-  text-decoration: none;
   font-family: "Cuprum", "Tahoma", sans-serif;
   font-size: 17px;
 }
@@ -261,6 +263,10 @@ img {
   background-position: 0 0;
   opacity: 0.3;
   transition: 200ms all;
+}
+
+.user-cart:hover {
+  background-color: #ee3643;
 }
 
 .user-cart:hover::before,
@@ -398,7 +404,7 @@ img {
   z-index: 0;
   width: 427px;
   height: 250px;
-  background-image: url("../img/delivery.jpg");
+  background-image: url("../img/delivery.png");
   background-repeat: no-repeat;
 }
 
@@ -410,7 +416,7 @@ img {
   z-index: 0;
   width: 334px;
   height: 263px;
-  background-image: url("../img/guarantee.jpg");
+  background-image: url("../img/guarantee.png");
   background-repeat: no-repeat;
 }
 
@@ -422,7 +428,7 @@ img {
   z-index: 0;
   width: 417px;
   height: 274px;
-  background-image: url("../img/credit.jpg");
+  background-image: url("../img/credit.png");
   background-repeat: no-repeat;
 }
 
@@ -1933,4 +1939,10 @@ input[type="radio"].visually-hidden {
 
 .sorting-items .sorting-buttons {
   width: 59px;
+}
+
+.font-delivery {
+  font-size: 13px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #000000;
 }
