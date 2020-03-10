@@ -147,7 +147,6 @@
                     <legend>Цена:</legend>
                     <div class="price-filter-inputs">
                       <div class="price">
-                        <!-- <input type="range" multiple value="10,80" /> -->
                         <div id="slider-range"></div>
                       </div>
                       <div class="price-inputs">
@@ -164,7 +163,7 @@
                           type="text"
                           name="price-max"
                           aria-label="Максимальная цена цена"
-                          value="90000"
+                          value="30000"
                         />
                       </div>
                     </div>
@@ -266,7 +265,7 @@
                   <p class="sorting-title">Сортировка:</p>
                   <div class="sorting-items">
                     <div class="sorting-list">
-                      <a class="sort-by-price sort-activ" href="#">по цене</a>
+                      <a class="sort-activ" href="#">по цене</a>
                       <a class="sort-by-type" href="#">по типу</a>
                       <a class="sort-by-functionality" href="#"
                         >по функционалу</a
@@ -310,7 +309,7 @@
                 <ul class="catalog-items">
                   <li class="catalog-item">
                     <h3>
-                      <a href="">Перфоратор BOSH BFG 3000</a>
+                      <a class="black-color" href="">Перфоратор BOSH BFG 3000</a>
                     </h3>
                     <del class="discount">22500 Р.</del>
                     <p class="price-button">15500 Р.</p>
@@ -327,7 +326,7 @@
                   </li>
                   <li class="catalog-item">
                     <h3>
-                      <a href="">Перфоратор BOSH BFG 6000</a>
+                      <a class="black-color" href="">Перфоратор BOSH BFG 6000</a>
                     </h3>
                     <del class="discount">30500 Р.</del>
                     <p class="price-button">25500 Р.</p>
@@ -344,7 +343,7 @@
                   </li>
                   <li class="catalog-item">
                     <h3>
-                      <a href="">Перфоратор BOSH BFG 2000</a>
+                      <a class="black-color" href="">Перфоратор BOSH BFG 2000</a>
                     </h3>
                     <p class="price-button">12500 Р.</p>
                     <img
@@ -360,7 +359,7 @@
                   </li>
                   <li class="catalog-item">
                     <h3>
-                      <a href="">Перфоратор BOSH BFG 3000</a>
+                      <a class="black-color" href="">Перфоратор BOSH BFG 3000</a>
                     </h3>
                     <del class="discount">22500 Р.</del>
                     <p class="price-button">15500 Р.</p>
@@ -377,7 +376,7 @@
                   </li>
                   <li class="catalog-item">
                     <h3>
-                      <a href="">Перфоратор BOSH BFG 6000</a>
+                      <a class="black-color" href="">Перфоратор BOSH BFG 6000</a>
                     </h3>
                     <del class="discount">30500 Р.</del>
                     <p class="price-button">25500 Р.</p>
@@ -394,7 +393,7 @@
                   </li>
                   <li class="catalog-item">
                     <h3>
-                      <a href="">Перфоратор BOSH BFG 2000</a>
+                      <a class="black-color" href="">Перфоратор BOSH BFG 2000</a>
                     </h3>
                     <p class="price-button">12500 Р.</p>
                     <img
@@ -410,7 +409,7 @@
                   </li>
                   <li class="catalog-item">
                     <h3>
-                      <a href="">Перфоратор BOSH BFG 3000</a>
+                      <a class="black-color" href="">Перфоратор BOSH BFG 3000</a>
                     </h3>
                     <del class="discount">22500 Р.</del>
                     <p class="price-button">15500 Р.</p>
@@ -427,7 +426,7 @@
                   </li>
                   <li class="catalog-item">
                     <h3>
-                      <a href="">Перфоратор BOSH BFG 6000</a>
+                      <a class="black-color" href="">Перфоратор BOSH BFG 6000</a>
                     </h3>
                     <del class="discount">30500 Р.</del>
                     <p class="price-button">25500 Р.</p>
@@ -444,7 +443,7 @@
                   </li>
                   <li class="catalog-item">
                     <h3>
-                      <a href="">Перфоратор BOSH BFG 2000</a>
+                      <a class="black-color" href="">Перфоратор BOSH BFG 2000</a>
                     </h3>
                     <p class="price-button">12500 Р.</p>
                     <img
@@ -471,7 +470,7 @@
                       <a href="#">3</a>
                     </li>
                     <li class="pagination-item"></li>
-                    <li>
+                    <li class="next-page">
                       <a href="#next" class="next">Следующая</a>
                     </li>
                   </ul>
@@ -481,8 +480,9 @@
           </div>
         </div>
       </article>
-      <section>
-        <h2>Пара слов о перфораторах</h2>
+      <section class="service-back">
+        <div class="container">
+        <h2 class="services-title">Пара слов о перфораторах</h2>
         <p>
           Перфоратор — универсальный строительный инструмент. Предназначен для
           сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют
@@ -492,6 +492,7 @@
           будут совмещены отбойный молоток и ударная дрель.
         </p>
       </section>
+    </div>
     </main>
     <footer class="page-footer">
       <div class="page-footer-top">
