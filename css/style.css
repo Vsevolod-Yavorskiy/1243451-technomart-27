@@ -165,7 +165,7 @@ img {
 
 .header-numbers a {
   font-size: 21px;
-  line-height: 18px;
+  line-height: 21px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #fb463c;
 }
@@ -870,7 +870,7 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   font-size: 17px;
   line-height: 20px;
-  font-family: "PTSans", sans-serif;
+  font-family: "PTSans", "Arial", sans-serif;
   color: #000000;
   letter-spacing: -1px;
 }
@@ -878,9 +878,9 @@ input[type="radio"].visually-hidden {
 .catalog-item .discount {
   display: block;
   margin-bottom: 11px;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 18px;
-  font-family: "PTSans", sans-serif;
+  font-family: "PTSans", "Arial", sans-serif;
   color: #a9a9a9;
   text-decoration: line-through;
 }
@@ -1052,6 +1052,8 @@ input[type="radio"].visually-hidden {
   min-height: 37px;
   margin-bottom: 20px;
   background-color: #f7f3ec;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 13px;
 }
 
 .catalog-header::after {
@@ -1094,6 +1096,22 @@ input[type="radio"].visually-hidden {
   color: #3d546e;
   text-transform: uppercase;
   letter-spacing: -1px;
+}
+
+/* цвет для названий товаров */
+
+.black-color {
+  width: 155px;
+  height: 33px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
 }
 
 /* Popular brands */
@@ -1176,9 +1194,9 @@ input[type="radio"].visually-hidden {
   display: inline-block;
   margin-bottom: 20px;
   padding: 11px 22px 9px 22px;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 18px;
-  font-family: "PTSans", sans-serif;
+  font-family: "PTSans", "Arial", sans-serif;
   color: #ffffff;
   background-color: #ee3643;
 }
@@ -1228,12 +1246,24 @@ input[type="radio"].visually-hidden {
   letter-spacing: -1px;
 }
 
+.service-back {
+  padding-top: 61px;
+  padding-bottom: 70px;
+  background-color: #f4f8fa;
+}
+
+.service-back p {
+  margin: 0;
+  font-size: 13px;
+  font-family: "PTSans", "Arial", sans-serif;
+}
+
 .services-info {
   margin: 0;
   margin-bottom: 62px;
   font-size: 13px;
   line-height: 24px;
-  font-family: "PTSans", sans-serif;
+  font-family: "PTSans", "Arial", sans-serif;
   color: #000000;
 }
 
@@ -1611,6 +1641,31 @@ input[type="radio"].visually-hidden {
   display: none;
 }
 
+/* Фильтр - радио */
+
+.filters-header {
+  display: flex;
+  align-items: center;
+  min-height: 37px;
+  background-color: #f7f3ec;
+}
+
+.filters-header::after{
+  content:"";
+  min-height:inherit;
+  font-size:0;
+  display: block;
+}
+
+.filters-header p {
+  margin: 0;
+  padding-left: 19px;
+  font-size: 13px;
+  font-family: "PTSans", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+
 /* Каталог */
 
 .catalog-name-row {
@@ -1791,6 +1846,20 @@ input[type="radio"].visually-hidden {
   font-size: 17px;
   line-height: 30px;
   text-transform: uppercase;
+}
+
+.pagination-nav {
+  width: 6px;
+  height: 9px;
+  font-family: "PTSans", "Arial", sans-serif ;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
 }
 
 .pagination-list {
@@ -2036,8 +2105,8 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 43px;
   left: 25px;
-  font-size: 17px;
-  font-family: "PTSans", "Arial" sans-serif;
+  font-size: 18px;
+  font-family: "PTSans", "Arial", sans-serif;
   color: #ffffff;
 }
 
@@ -2048,6 +2117,17 @@ input[type="radio"].visually-hidden {
   transition: 200ms all;
 }
 
-.slide {
+.catalog .slide {
   position: relative;
+}
+
+.catalog .slide-title {
+  position: absolute;
+  top: -7px;
+  left: 24px;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: "Cuprum", "Tahoma", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
 }
