@@ -682,7 +682,7 @@ input[type="radio"].visually-hidden {
   width: 200px;
   font-size: 16px;
   line-height: 28px;
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  background-image: url("../img/new-flag.png");
   text-align: center;
   color: #f0f0f0;
   text-transform: lowercase;
