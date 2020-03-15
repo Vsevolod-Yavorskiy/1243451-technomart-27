@@ -740,6 +740,7 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 .catalog-menu-btn:hover,
@@ -752,7 +753,7 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-menu .materials {
-  margin-left: 0;
+  margin-right: 20px;
   background-color: #ffbf47;
 }
 
@@ -768,6 +769,7 @@ input[type="radio"].visually-hidden {
 
 .catalog-menu .tools {
   background-color: #3bbce3;
+  margin-right: 20px;
 }
 
 .catalog-menu .tools::before {
@@ -912,6 +914,7 @@ input[type="radio"].visually-hidden {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 14px;
   border-radius: 2px;
 }
 
@@ -919,8 +922,8 @@ input[type="radio"].visually-hidden {
   margin-bottom: 9px;
   padding-bottom: 4px;
   color: #ffffff;
-  background-color: #63a63e;
-  border-bottom: 3px solid #367315;
+  background-color: #ffffff;
+  border-bottom: 3px solid #ffffff;
 }
 
 .buy {
@@ -931,25 +934,16 @@ input[type="radio"].visually-hidden {
   border-bottom: 3px solid #367315;
 }
 
-.catalog-item .actions:hover,
-.catalog-item .actions:focus {
-  background-color: #5fbb2d;
-}
-
 .buy:hover,
 .buy:focus {
   background-color: #5fbb2d;
-}
-
-.catalog-item .actions:active {
-  background-color: #518534;
 }
 
 .buy:active {
   background-color: #518534;
 }
 
-.catalog-item .actions::before {
+.catalog-item::before {
   position: absolute;
   content: "";
   width: 15px;
@@ -983,23 +977,11 @@ input[type="radio"].visually-hidden {
   opacity: 1;
 }
 
-.catalog-item .actions {
-  margin-bottom: 50px;
-  padding-bottom: 4px;
-  color: #33445a;
-  border: 2px solid #63a63e;
-}
-
 .bookmark {
   margin-bottom: 50px;
   padding-bottom: 4px;
   color: #33445a;
   border: 2px solid #63a63e;
-}
-
-.catalog-item .actions:hover,
-.catalog-item .actions:focus {
-  border-color: #33445a;
 }
 
 .bookmark:hover,
@@ -2011,6 +1993,7 @@ input[type="radio"].visually-hidden {
 
 .slider {
   position: relative;
+  margin-right: 20px;
 }
 
 .slider input[type=radio] {
@@ -2019,6 +2002,10 @@ input[type="radio"].visually-hidden {
 
 .slider-inner {
   overflow: hidden;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 .slider-two {
