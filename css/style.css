@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  min-width: 960px;
+  min-width: 940px;
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -837,6 +837,8 @@ input[type="radio"].visually-hidden {
   margin-right: 20px;
   margin-bottom: 20px;
   overflow: hidden;
+  width: 220px;
+  height: 318px;
 }
 
 .catalog-items li:nth-child(4n) {
@@ -845,6 +847,7 @@ input[type="radio"].visually-hidden {
 
 .catalog-item {
   width: 220px;
+  height: 318px;
   text-align: center;
   border: 1px solid #eaeaea;
 }
@@ -1621,6 +1624,8 @@ input[type="radio"].visually-hidden {
   align-items: center;
   min-height: 37px;
   background-color: #f7f3ec;
+  width: 220px;
+  height: 38px;
 }
 
 .filters-header::after{
@@ -1791,6 +1796,8 @@ input[type="radio"].visually-hidden {
   border: 1px solid #eaeaea;
   border-radius: 1px;
   cursor: pointer;
+  font-size: 13px;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .filter-button:hover,
@@ -1824,7 +1831,7 @@ input[type="radio"].visually-hidden {
 .pagination-nav {
   width: 6px;
   height: 9px;
-  font-family: "PT Sans", "Arial", sans-serif ;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -1990,6 +1997,10 @@ input[type="radio"].visually-hidden {
 }
 
 /* Slider */
+
+.slider-range {
+
+}
 
 .slider {
   position: relative;
