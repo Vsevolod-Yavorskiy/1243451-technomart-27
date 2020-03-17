@@ -1816,7 +1816,7 @@ input[type="radio"].visually-hidden {
 
 .work-radio input[type="radio"]:hover:checked + .radio-indicator,
 .work-radio input[type="radio"]:focus:checked + .radio-indicator {
-  background-image: url("../img/svg/radio-on.svg");
+  background-image: url("../img/radio-on.svg");
   background-repeat: no-repeat;
 }
 
