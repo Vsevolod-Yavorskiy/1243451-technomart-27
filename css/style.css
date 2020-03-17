@@ -824,6 +824,30 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/icon-5.svg");
 }
 
+/* для каталога */
+
+.catalog-items-1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog-items-1 li {
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 220px;
+  height: 318px;
+}
+
+.catalog-items-1 li:nth-child(3n) {
+  margin-right: 0;
+}
+
+
 .catalog-items {
   display: flex;
   flex-wrap: wrap;
@@ -850,13 +874,10 @@ input[type="radio"].visually-hidden {
   height: 318px;
   text-align: center;
   border: 1px solid #eaeaea;
-  display: flex;
-  flex-direction: column;
 }
 
 .catalog-item img {
   margin-bottom: 33px;
-  order: -1;
 }
 
 .catalog-item h3 {
@@ -1876,6 +1897,55 @@ input[type="radio"].visually-hidden {
   border: none;
   cursor: default;
 }
+
+/* позунок */
+
+.range-controls {
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+.range-controls .scale {
+  height: 2px;
+  
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+  background: #63a63e;
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+  
+  width: 4px;
+  height: 4px;
+
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+
+/* Фильтр */
 
 .price-filter-inputs .price {
   margin-bottom: 8px;
