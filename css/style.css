@@ -1193,7 +1193,7 @@ input[type="radio"].visually-hidden {
 }
 
 .price-button {
-  position: absolute;
+  position: relative;
   display: inline-block;
   margin-bottom: 20px;
   padding: 11px 22px 9px 22px;
@@ -1960,6 +1960,7 @@ input[type="radio"].visually-hidden {
   height: 80px;
   padding: 40px 20px;
   background-color: #f7f3ec;
+  margin-right: 20px;
 }
 
 .price-filter-inputs .min-price,
