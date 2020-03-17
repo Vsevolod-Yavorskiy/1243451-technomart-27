@@ -850,10 +850,13 @@ input[type="radio"].visually-hidden {
   height: 318px;
   text-align: center;
   border: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
 }
 
 .catalog-item img {
   margin-bottom: 33px;
+  order: -1;
 }
 
 .catalog-item h3 {
