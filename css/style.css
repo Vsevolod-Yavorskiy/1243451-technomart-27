@@ -677,30 +677,24 @@ input[type="radio"].visually-hidden {
 
 .ribbon {
   position: absolute;
-  top: 7px;
-  right: -80px;
-  width: 200px;
-  font-size: 16px;
-  line-height: 28px;
   background-image: url("../img/new-flag.png");
-  text-align: center;
-  color: #f0f0f0;
-  text-transform: lowercase;
-  letter-spacing: 1px;
-  background: #ff5357;
-  transform: rotate(45deg);
-}
-
-.ribbon-2 {
-  content: '';
-  position: absolute;
+  background-position: 100%;
+  background-repeat: no-repeat;
   top: 0;
   right: 0;
   width: 60px;
   height: 59px;
+}
+
+.ribbon-2 {
+  position: absolute;
   background-image: url("../img/new-flag.png");
+  background-position: 100%;
   background-repeat: no-repeat;
-  background-position: -389px -5px;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 59px;
 }
 
 /* Catalog */
