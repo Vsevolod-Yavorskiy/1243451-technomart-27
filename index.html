@@ -12,7 +12,7 @@
       <nav class="page-nav">
         <div class="header-menu">
           <div class="container">
-            <a class="header-logo">
+            <a class="header-logo" href="index.html">
               <svg xmlns="http://www.w3.org/2000/svg" width="109" height="19">
                 <path
                   fill="#FFF"
@@ -168,13 +168,13 @@
         </div>
         </div>
       </section>
-      <section class="popular-products">
+      <div class="popular-products">
         <div class="container">
           <div class="row popular-title-row">
             <h2 class="popular-section-title">Популярные товары:</h2>
             <a class="button" href="#">Все популярные товары</a>
           </div>
-          <section class="catalog-items">      
+          <div class="catalog-items">      
             <article class="product-card">
               <div class="product-card-actions">
                   <a href="#" class="btn product-card-actions-buy icon-basket">Купить</a>
@@ -224,9 +224,9 @@
         <div class="product-card-discount"></div>
         <div class="product-card-price">25500 р.</div>
     </article>
-      </section>
-  </article>
-      </section>
+  </div>
+    </div>
+    </div>
       <section class="popular-brands">
         <div class="container">
           <div class="row popular-title-row">
@@ -397,13 +397,13 @@
                 Вы можете забрать товар сами,<br />
                 заехав в наш офис:
               </p>
-              <a class="button-map" href="maps.html"
-                ><img
-                  src="img/map.jpg"
-                  width="300"
-                  height="158"
-                  alt="Офис: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"
-              /></a>
+              <div class="company-map">
+                <a class="open-modal-map" href="#"><img src="img/map.jpg" alt="«Техномарт» на карте" width="300" height="158"></a>
+            </div>
+            <div class="modal-map">
+                <div class="modal-close modal-map-close">Назад</div>
+                    <div id="map" class="y-map"></div>
+            </div>
               <a class="button contacts-button" href=""
                 >Заблудились? Напишите нам!</a
               >
@@ -544,5 +544,35 @@
         </div>
       </div>
     </footer>
+    <div class="modal modal-contact">
+      <a class="modal-close modal-contact-close" href="#">Назад</a>
+      <form class="contact-form" action="/echo" method="post">
+          <div class="modal-content">
+              <label class="contact-form-label" for="name-field">Ваше имя:
+                  <input class="contact-form-item" type="text" name="name" id="name-field" placeholder="Представьтесь, пожалуйста">
+              </label>
+              <label class="contact-form-label" for="email-field">Ваш e-mail:
+                  <input class="contact-form-item" type="email" name="email" id="email-field" placeholder="Для отправки ответа">
+              </label>
+              <label class="contact-form-label" for="text-field">Текст письма:
+                  <textarea class="contact-form-item text-field" name="text" rows="5" id="text-field" placeholder="В свободной форме"></textarea>
+              </label>
+          </div>
+          <div class="modal-footer">
+              <button class="modal-btn btn" type="submit" name="send">Отправить</button>
+              <button class="modal-btn modal-close-btn" type="reset">Отмена</button>
+          </div>
+      </form>
+  </div>
+  <div class="modal modal-cart">
+      <a class="modal-close modal-cart-close" href="#">Назад</a>
+      <div class="modal-content modal-cart-content">
+          <p class="modal-text">Товар добавлен в корзину!</p>
+      </div>
+      <div class="modal-footer">
+          <button class="modal-btn btn" type="submit" name="send">Оформить заказ</button>
+          <a class="modal-btn modal-close-btn" href="#">Продолжить покупки</a>
+      </div>
+  </div>
   </body>
 </html>
