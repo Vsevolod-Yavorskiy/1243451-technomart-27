@@ -1495,6 +1495,7 @@ input[type="radio"].visually-hidden {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-top: -25px;
 }
 
 .button-map {
@@ -2295,4 +2296,198 @@ input[type="radio"].visually-hidden {
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+/* Большая карта, форма для записи и товар добавлен */
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 620px;
+  height: 423px;
+  margin: auto;
+  border-top: 7px solid #ee3643;
+  overflow: auto;
+  background-color: #ffffff;
+  -webkit-animation: fade 0.2s both;
+  animation: fade 0.2s both;
+}
+
+.open-modal-map {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.modal-map {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  display: none;
+  width: 940px;
+  height: 446px;
+  box-shadow: 0 0 15px 1px rgba(35, 31, 32, 0.5);
+  background: url(../img/map-big.jpg) no-repeat;
+}
+
+.modal-map-show {
+  display: block;
+}
+
+.modal-map-close {
+  z-index: 100;
+}
+
+.y-map {
+  width: 940px;
+  height: 446px;
+}
+
+.company-map {
+  padding-top: 10px;
+  margin-bottom: 35px;
+}
+
+.modal-contact {
+  display: none;
+  box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
+}
+
+.modal-contact-show {
+  display: block;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 21px;
+  height: 21px;
+  padding: 10px;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.modal-close:before,
+.modal-close:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  right: 17px;
+  width: 5px;
+  height: 25px;
+  background-color: #ee3643;
+  transform: rotate(45deg);
+}
+
+.modal-close:after {
+  transform: rotate(-45deg);
+}
+
+.modal-content {
+  padding: 47px 80px 12px 80px;
+  font-size: 0;
+}
+
+.modal-footer {
+  padding: 37px 80px 37px 80px;
+  font-size: 0;
+  background-color: #f1f1f1;
+}
+
+.modal-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 220px;
+  margin: 0 20px 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+
+.modal-btn:last-child {
+  margin-right: 0;
+}
+
+.modal-close-btn {
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Cuprum', 'Arial', sans-serif;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.modal-close-btn:hover {
+  outline: 1px solid #bdc6ca;
+}
+
+.modal-close-btn:active {
+  outline: 1px solid #ee3643;
+}
+
+.modal-cart {
+  display: none;
+  height: 275px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(41, 52, 73, 0.75);
+}
+
+.modal-cart-show {
+  display: block;
+}
+
+.modal-cart-content {
+  margin: 0;
+  padding: 47px 80px 50px 80px;
+}
+
+.modal-text {
+  padding: 0 0 0 100px;
+  margin: 0;
+  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-size: 30px;
+  line-height: 66px;
+  background: url(../img/modal-check.png) no-repeat;
+  background-position: 0 50%;
+}
+
+.contact-form-label {
+  display: inline-block;
+  vertical-align: middle;
+  width: 220px;
+  margin: 0 0 21px 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-weight: 400;
+}
+
+.contact-form-label:first-child {
+  margin-right: 20px;
+}
+
+.contact-form-label:last-child {
+  width: 460px;
+}
+
+.contact-form-item {
+  width: 186px;
+  margin: 10px 0 0 0;
+  padding: 7px 15px 8px 15px;
+  border: 2px solid #cccccc;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  border-radius: 3px;
+  outline: none;
 }
