@@ -2379,8 +2379,8 @@ input[type="radio"].visually-hidden {
 
 .modal-map {
   position: absolute;
-  top: 33px;
-  left: 0;
+  top: 2350px;
+  left: 250px;
   display: none;
   width: 940px;
   height: 446px;
@@ -2456,6 +2456,23 @@ input[type="radio"].visually-hidden {
 .modal-btn {
   display: inline-block;
   vertical-align: middle;
+  width: 460px;
+  margin: 0 20px 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #ee3643;
+}
+
+.modal-btn:last-child {
+  margin-right: 0;
+}
+
+.modal-btn-2 {
+  display: inline-block;
+  vertical-align: middle;
   width: 220px;
   margin: 0 20px 0 0;
   white-space: nowrap;
@@ -2463,11 +2480,13 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   border: none;
   outline: none;
+  background-color: #ee3643;
 }
 
-.modal-btn:last-child {
+.modal-btn-2:last-child {
   margin-right: 0;
 }
+
 
 .modal-close-btn {
   padding: 0;
