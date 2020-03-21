@@ -404,7 +404,7 @@
                 <div class="modal-close modal-map-close">Назад</div>
                     <div id="map" class="y-map"></div>
             </div>
-              <a class="button contacts-button" href=""
+              <a class="button contacts-button open-modal-btn" href=""
                 >Заблудились? Напишите нам!</a
               >
             </section>
@@ -443,7 +443,7 @@
           <div class="row nav-footer-row-2">
             <div class="column-footer">
               <p class="address-phone">
-                г. Санкт-Петербург, ул. Б. Конюшенная, д. 10/8<br>
+                г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
                  +7 (812) 555-05-55
               </p>
             </div>
@@ -536,7 +536,7 @@
                 </li>
                 <li>
                   Разработано -
-                  <a class="dev-link" href="#">htmlacademy.ru</a>
+                  <a class="dev-link" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
                 </li>
               </ul>
             </div>
@@ -549,10 +549,10 @@
       <form class="contact-form" action="/echo" method="post">
           <div class="modal-content">
               <label class="contact-form-label" for="name-field">Ваше имя:
-                  <input class="contact-form-item" type="text" name="name" id="name-field" placeholder="Представьтесь, пожалуйста">
+                  <input class="contact-form-item" type="text" name="name" id="name-field" placeholder="Имя и фамилия">
               </label>
               <label class="contact-form-label" for="email-field">Ваш e-mail:
-                  <input class="contact-form-item" type="email" name="email" id="email-field" placeholder="Для отправки ответа">
+                  <input class="contact-form-item" type="email" name="email" id="email-field" placeholder="email@example.com">
               </label>
               <label class="contact-form-label" for="text-field">Текст письма:
                   <textarea class="contact-form-item text-field" name="text" rows="5" id="text-field" placeholder="В свободной форме"></textarea>
@@ -574,5 +574,7 @@
           <a class="modal-btn modal-close-btn" href="#">Продолжить покупки</a>
       </div>
   </div>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
