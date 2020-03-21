@@ -12,7 +12,7 @@
         openCart[i].addEventListener('click', function (event) {
             event.preventDefault();
             popupCart.classList.add('modal-cart-show');
-            countBtn.classList.add('count-active');
+            countBtn.classList.add('user-cart');
             var count = Number(counter.innerHTML);
             counter.innerHTML = count += 1;
         });
@@ -42,14 +42,14 @@
     });
 
 
-    var linkArrow = document.querySelectorAll('.features-slider-arrows a');
-    var inputNav = document.querySelectorAll('[name="features-toggle"]');
+    var linkArrow = document.querySelectorAll('.slider-controls a');
+    var inputNav = document.querySelectorAll('[name="slide"]');
 
     if (linkArrow) {
         for (var i = 0; i < linkArrow.length; i++) {
             linkArrow[i].addEventListener('click', function (event) {
                 event.preventDefault();
-                var currentInput = document.querySelector('.features-slider input:checked');
+                var currentInput = document.querySelector('.slider input:checked');
                 var currentInputIndex = [].indexOf.call(inputNav, currentInput);
                 var inputCount = inputNav.length;
                 switch (this.dataset.direction) {
@@ -150,7 +150,6 @@
         formContact.addEventListener('submit', function (event) {
             if (!nameContact.value || !emailContact.value || !textContact.value) {
                 event.preventDefault();
-                popupContact.classList.add('modal-error');
             } else {
                 localStorage.setItem('nameContact', nameContact.value);
                 localStorage.setItem('emailContact', emailContact.value);
@@ -161,14 +160,12 @@
         closeContact.addEventListener('click', function (event) {
             event.preventDefault();
             popupContact.classList.remove('modal-contact-show');
-            popupContact.classList.remove('modal-error');
         });
 
         window.addEventListener('keydown', function (event) {
             if (event.keyCode === 27) {
                 if (popupContact.classList.contains('modal-contact-show')) {
                     popupContact.classList.remove('modal-contact-show');
-                    popupContact.classList.remove('modal-error');
                 }
             }
         });
