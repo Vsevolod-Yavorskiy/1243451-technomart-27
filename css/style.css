@@ -2473,7 +2473,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   background-color: #ffffff;
   color: #000000;
-  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   line-height: 38px;
   text-align: center;
   text-transform: uppercase;
@@ -2508,7 +2508,7 @@ input[type="radio"].visually-hidden {
 .modal-text {
   padding: 0 0 0 100px;
   margin: 0;
-  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   font-size: 30px;
   line-height: 66px;
   background: url(../img/modal-check.png) no-repeat;
@@ -2523,7 +2523,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   font-size: 18px;
   line-height: 18px;
-  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   font-weight: 400;
 }
 
@@ -2545,4 +2545,9 @@ input[type="radio"].visually-hidden {
   font-family: 'PT Sans', 'Arial', sans-serif;
   border-radius: 3px;
   outline: none;
+}
+
+.text-field {
+  width: 426px;
+  min-height: 94px;
 }
