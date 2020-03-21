@@ -6,7 +6,6 @@
     var cancelCart = popupCart.querySelector('.modal-close-btn');
     var submitCart = popupCart.querySelector('.modal-btn');
     var countBtn = document.querySelector('.bar-cart-count');
-    var counter = countBtn.querySelector('.count');
 
     for (var i = 0; i < openCart.length; i++) {
         openCart[i].addEventListener('click', function (event) {
@@ -17,11 +16,6 @@
             counter.innerHTML = count += 1;
         });
     }
-
-    submitCart.addEventListener('click', function (event) {
-        event.preventDefault();
-        popupCart.classList.remove('modal-cart-show');
-    });
 
     closeCart.addEventListener('click', function (event) {
         event.preventDefault();
