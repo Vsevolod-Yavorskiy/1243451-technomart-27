@@ -1898,8 +1898,12 @@ input[type="radio"].visually-hidden {
   padding-left: 30px;
 }
 
-.brands-checkbox:disabled,
-.checkbox-indicator:disabled{
+input:checked + label {
+  color: rgba 0 0 0, 0.4;
+  opacity: 0.3;
+}
+
+input:disabled + label {
   color: rgba 0 0 0, 0.4;
   opacity: 0.3;
 }
