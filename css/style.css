@@ -1898,11 +1898,7 @@ input[type="radio"].visually-hidden {
   padding-left: 30px;
 }
 
-input:checked + label {
-  color: rgba 0 0 0, 0.4;
-  opacity: 0.3;
-}
-
+input:checked + label,
 input:disabled + label {
   color: rgba 0 0 0, 0.4;
   opacity: 0.3;
