@@ -136,13 +136,14 @@ img {
 
 
 .header-company {
+  width: auto;
   margin: 0;
   padding: 0;
-  padding-top: 40px;
-  padding-left: 52px;
+  padding-top: 43px;
+  padding-left: 45px;
   padding-bottom: 30px;
   font-size: 16px;
-  line-height: 23px;
+  line-height: 25px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ff5357;
   font-style: italic;
@@ -150,9 +151,9 @@ img {
 
 .header-contacts {
   padding-left: 17px;
-  margin-left: 30px;
-  margin-top: 50px;
-  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 45px;
+  margin-right: 38px;
   margin-bottom: 30px;
 }
 
@@ -164,6 +165,9 @@ img {
   padding-bottom: 5px;
   padding-left: 70px;
   border: 3px solid #ffffff;
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
 }
 
 .header-numbers a {
@@ -207,6 +211,12 @@ img {
   color: #ffffff;
   font-family: "Cuprum", "Tahoma", sans-serif;
   font-size: 17px;
+}
+
+.count-active,
+.count-active:hover,
+.count-active:active {
+    background-color: #ee3643;
 }
 
 .user-bookmarks {
@@ -381,6 +391,7 @@ img {
 .service-description h3 {
   margin: 0;
   margin-top: 11px;
+  margin-left: 8px;
   font-size: 36px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #3d546e;
@@ -444,7 +455,7 @@ img {
 .user-navigation {
   display: flex;
   margin: 0;
-  margin-top: 50px;
+  margin-top: 45px;
   margin-bottom: 6px;
   padding-left: 33px;
   list-style: none;
@@ -650,10 +661,10 @@ img {
 
 .menu-navigation a {
   display: block;
-  padding-top: 22px;
-  padding-right: 30px;
-  padding-bottom: 18px;
-  padding-left: 30px;
+  padding-top: 25px;
+  padding-right: 35px;
+  padding-bottom: 17px;
+  padding-left: 27px;
   font-size: 17px;
   line-height: 15px;
   font-family: "Cuprum", "Tahoma", sans-serif;
@@ -1051,7 +1062,7 @@ input[type="radio"].visually-hidden {
 
 .product-card-discount {
   min-height: 20px;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
   font-weight: 700;
   text-decoration: line-through;
   text-transform: uppercase;
@@ -1062,9 +1073,9 @@ input[type="radio"].visually-hidden {
   position: relative;
   background-image: url("../img/item-button.svg");
   background-repeat: no-repeat;
-  background-position: 110 50;
+  background-position: 100% 100%; 
   width: 150px;
-  height: 58px;
+  height: 38px;
   transform: translate(35px,5px);
   color: #ffffff;
   padding-top: 10px;
@@ -1202,7 +1213,7 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  padding: 25px 26px;
+  padding: 29px 29px;
   background-color: #f9f5f0;
 }
 
@@ -1246,6 +1257,7 @@ input[type="radio"].visually-hidden {
 
 .popular-brands {
   margin-bottom: 65px;
+  margin-top: -25px;
 }
 
 .popular-brands-list {
@@ -1261,7 +1273,7 @@ input[type="radio"].visually-hidden {
   justify-content: center;
   align-items: center;
   height: 145px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   border: 1px solid #eaeaea;
 }
 
@@ -1359,7 +1371,7 @@ input[type="radio"].visually-hidden {
 
 .services {
   margin-bottom: 82px;
-  padding-top: 63px;
+  padding-top: 75px;
   padding-bottom: 100px;
   overflow: hidden;
   background-color: #f4f8fa;
@@ -1376,7 +1388,7 @@ input[type="radio"].visually-hidden {
 
 .service-back {
   margin-bottom: -80px;
-  padding-top: 61px;
+  padding-top: 90px;
   padding-bottom: 70px;
   background-color: #f4f8fa;
 }
@@ -1459,7 +1471,8 @@ input[type="radio"].visually-hidden {
 .about-company-title,
 .contacts-title {
   margin: 0;
-  margin-bottom: 31px;
+  margin-bottom: 23px;
+  margin-left: 5px;
   font-size: 30px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   text-transform: uppercase;
@@ -1518,10 +1531,11 @@ input[type="radio"].visually-hidden {
 }
 
 .contacts-button {
-  width: 100%;
+  width: 300px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: -31px;
+  margin-left: 8px;
 }
 
 .button-map {
@@ -1536,7 +1550,7 @@ input[type="radio"].visually-hidden {
 }
 .page-footer-bottom {
   padding-top: 30px;
-  padding-bottom: 28px;
+  padding-bottom: 20px;
   background-color: #33445a;
 }
 
@@ -1559,8 +1573,10 @@ input[type="radio"].visually-hidden {
 
 .footer-logo {
   display: inline-block;
+  width: 220px;
+  height: 68px;
   padding: 18px 41px 20px 41px;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 30px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
@@ -1577,7 +1593,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   margin: 0;
   padding: 0;
-  padding-top: 40px;
+  padding-top: 38px;
+  padding-left: 10px;
   list-style: none;
 }
 
@@ -1615,7 +1632,7 @@ input[type="radio"].visually-hidden {
 }
 
 .nav-footer-row-2 {
-  padding-bottom: 53px;
+  padding-bottom: 50px;
 }
 
 .address-phone {
@@ -1635,7 +1652,7 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-social li {
-  margin-right: 4px;
+  margin-right: 1px;
 }
 
 .social-button {
@@ -1675,6 +1692,10 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
 }
 
+.mail-link-perfect {
+  margin-left: 14px;
+}
+
 .mail-link,
 .dev-link {
   color: #ffda96;
@@ -1698,7 +1719,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   margin: 0;
   padding: 0;
-  padding-left: 12px;
+  padding-left: 27px;
+  padding-bottom: 10px;
   list-style: none;
 }
 
@@ -1735,8 +1757,9 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
   justify-content: flex-start;
   margin: 0;
-  margin-top: 18px;
+  margin-top: 21px;
   margin-bottom: 16px;
+  margin-left: 1px;
   padding: 0;
   list-style: none;
 }
@@ -1902,6 +1925,16 @@ input:checked ~ span,
 input:disabled ~ span {
   color: rgba(0, 0, 0, 0.4);
   opacity: 0.3;
+}
+
+.checkbox-indicator ~ span,
+.checkbox-indicator ~ span {
+  opacity: 0.79;
+}
+
+.checkbox-indicator ~ span:hover,
+.checkbox-indicator ~ span:hover {
+  opacity: 1;
 }
 
 .power-supply-filter {
@@ -2230,6 +2263,7 @@ input:disabled ~ span {
   font-size: 13px;
   font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
+  padding-left: 1px;
 }
 
 /* Slider */
@@ -2402,7 +2436,8 @@ input:disabled ~ span {
 
 .company-map {
   padding-top: 10px;
-  margin-bottom: 35px;
+  margin-bottom: 11px;
+  margin-left: 10px;
 }
 
 .modal-contact {
