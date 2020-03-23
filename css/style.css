@@ -207,6 +207,12 @@ img {
 
 /*  Закладки корзина заказ */
 
+.unit {
+  width: 150px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
 .user-bookmarks,
 .user-cart,
 .user-order {
@@ -215,6 +221,7 @@ img {
   color: #ffffff;
   font-family: "Cuprum", "Tahoma", sans-serif;
   font-size: 17px;
+  line-height: 18px;
 }
 
 .count-active,
@@ -225,7 +232,6 @@ img {
 
 .user-bookmarks {
   position: relative;
-  width: 160px;
   padding-left: 44px;
 }
 
@@ -258,8 +264,7 @@ img {
 
 .user-cart {
   position: relative;
-  width: 140px;
-  padding-left: 40px;
+  padding-left: 50px;
 }
 
 .user-cart:active {
@@ -270,10 +275,10 @@ img {
   content: "";
   position: absolute;
   top: 50%;
-  left: 10px;
+  left: 19px;
   width: 15px;
   height: 15px;
-  margin-top: -10px;
+  margin-top: -9px;
   background-image: url("../img/cart-icon.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -295,7 +300,6 @@ img {
 }
 
 .user-order {
-  width: 150px;
   padding-left: 20px;
   background-color: #63a63e;
 }
