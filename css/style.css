@@ -57,7 +57,7 @@ img {
 
 .header-logo {
   position: relative;
-  padding: 14px 55px 10px;
+  padding: 13px 55px 10px;
   font-size: 24px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
@@ -98,8 +98,8 @@ img {
   height: 42px;
   min-height: 42px;
   padding-left: 50px;
-  padding-top: 11px;
-  padding-bottom: 12px;
+  padding-top: 14px;
+  padding-bottom: 9px;
   color: inherit;
   background: #33445a;
   border: none;
@@ -209,7 +209,7 @@ img {
 .user-cart,
 .user-order {
   display: block;
-  padding-top: 12px;
+  padding-top: 14px;
   color: #ffffff;
   font-family: "Cuprum", "Tahoma", sans-serif;
   font-size: 17px;
