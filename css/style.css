@@ -57,9 +57,8 @@ img {
 
 .header-logo {
   position: relative;
-  display: block;
   padding: 14px 55px 10px;
-  font-size: 20px;
+  font-size: 24px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
@@ -96,8 +95,11 @@ img {
 
 .header-search input {
   width: 100%;
-  min-height: 47px;
+  height: 42px;
+  min-height: 42px;
   padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   color: inherit;
   background: #33445a;
   border: none;
@@ -1331,6 +1333,7 @@ input[type="radio"].visually-hidden {
 .price-button {
   position: relative;
   display: inline-block;
+  vertical-align: auto;
   margin-bottom: 20px;
   font-size: 17px;
   line-height: 18px;
@@ -1573,6 +1576,7 @@ input[type="radio"].visually-hidden {
 
 .footer-logo {
   display: inline-block;
+  vertical-align: middle;
   width: 220px;
   height: 68px;
   padding: 18px 41px 20px 41px;
@@ -2313,6 +2317,7 @@ input:disabled ~ span {
 
 .slider-controls label {
   display: inline-block;
+  vertical-align: auto;
   width: 11px;
   height: 11px;
   margin: 0 3px;
@@ -2610,4 +2615,8 @@ input:disabled ~ span {
 .text-field {
   width: 426px;
   min-height: 94px;
+}
+
+.footer-phone {
+  color: #ffffff;
 }
