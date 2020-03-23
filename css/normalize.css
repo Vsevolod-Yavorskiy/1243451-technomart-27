@@ -36,7 +36,8 @@ button,
 input {
   font-family: inherit;
   font-size: 100%;
-  line-height: 1.15;
+  font-size: 17px;
+  line-height: 18px;
   margin: 0;
 }
 
