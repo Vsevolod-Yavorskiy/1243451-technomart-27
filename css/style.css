@@ -426,11 +426,10 @@ img {
   margin: 0;
   margin-top: 11px;
   margin-left: 8px;
-  font-size: 36px;
+  font-weight: 400;
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #3d546e;
   text-transform: uppercase;
-  letter-spacing: -1px;
 }
 
 .service-description p {
@@ -818,6 +817,7 @@ input[type="radio"].visually-hidden {
   padding-top: 11px;
   padding-bottom: 9px;
   padding-left: 27px;
+  padding-right: 0;
   font-size: 14px;
   line-height: 18px;
   font-family: "Cuprum", "Tahoma", sans-serif;
@@ -1482,8 +1482,9 @@ input[type="radio"].visually-hidden {
   padding-top: 12px;
   padding-bottom: 19px;
   padding-left: 23px;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 21px;
+  line-height: 31px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
   background-color: #3d546e;
