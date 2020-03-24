@@ -27,6 +27,20 @@ img {
   height: auto;
 }
 
+/* Container */
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header-menu .container {
+  display: flex;
+  font-size: 17px;
+  line-height: 18px;
+}
+
 .form-write-us label {
   display: block;
   margin-bottom: 10px;
@@ -46,7 +60,6 @@ img {
 }
 
 .header-info {
-  padding-top: 47px;
   padding-bottom: 24px;
 }
 
@@ -220,20 +233,6 @@ img {
   line-height: 24px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #3d546e;
-}
-
-/* Container */
-
-.container {
-  width: 960px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-.header-menu .container {
-  display: flex;
-  font-size: 17px;
-  line-height: 18px;
 }
 
 /*  Закладки корзина заказ */
@@ -711,7 +710,7 @@ img {
 
 .main-nav-link {
   display: block;
-  padding: 20px 31px 18px 31px;
+  padding: 20px 30px 18px 30px;
   text-align: center;
   font-size: 17px;
   line-height: 17px;
@@ -728,7 +727,7 @@ img {
 }
 
 .main-nav-link:active {
-  color: #b2b2b2;
+  color: rgba(255, 255, 255, 0.5);
   background-color: #1d2739;
 }
 
