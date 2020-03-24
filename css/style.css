@@ -664,7 +664,8 @@ img {
   margin-top: 11px;
   padding: 0 20px;
   list-style: none;
-  background-color: #3d546e;
+  background-color: #32425c;
+  border-bottom: 5px solid #293449;
 }
 
 .menu-navigation a {
