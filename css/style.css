@@ -325,7 +325,7 @@ img {
   flex-shrink: 0;
   flex-basis: 0;
 }
- 
+
 .column-delivery {
   flex-grow: 3.3;
   flex-basis: 0;
@@ -657,11 +657,11 @@ img {
 /* menu-navigation */
 
 .menu-navigation {
-  position: relative;
   display: flex;
+  height: 60px;
   justify-content: space-between;
   margin: 0;
-  top: 10px;
+  margin-top: 11px;
   padding: 0 20px;
   list-style: none;
   background-color: #3d546e;
@@ -669,10 +669,10 @@ img {
 
 .menu-navigation a {
   display: block;
-  padding-top: 25px;
-  padding-right: 35px;
+  padding-top: 22px;
+  padding-right: 29px;
   padding-bottom: 17px;
-  padding-left: 27px;
+  padding-left: 25px;
   font-size: 17px;
   line-height: 15px;
   font-family: "Cuprum", "Tahoma", sans-serif;
@@ -1081,7 +1081,7 @@ input[type="radio"].visually-hidden {
   position: relative;
   background-image: url("../img/item-button.svg");
   background-repeat: no-repeat;
-  background-position: 100% 100%; 
+  background-position: 100% 100%;
   width: 150px;
   height: 38px;
   transform: translate(35px,5px);
@@ -2112,7 +2112,7 @@ input:disabled ~ span {
 
 .range-controls .scale {
   height: 2px;
-  
+
   background: rgba(255, 255, 255, 0.3);
 }
 
@@ -2319,7 +2319,7 @@ input:disabled ~ span {
   left: 291px;
   z-index: 1;
   text-align: center;
-  
+
 }
 
 .slider-controls label {
@@ -2341,7 +2341,7 @@ input:disabled ~ span {
 
 #slider-btn-1:checked ~ .slider-inner .slider-two {
   transform: translate(0);
-  
+
 }
 
 #slider-btn-2:checked ~ .slider-inner .slider-two {
