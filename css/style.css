@@ -1774,16 +1774,15 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
   justify-content: flex-start;
   margin: 0;
-  margin-top: 21px;
+  margin-top: 12px;
   margin-bottom: 16px;
-  margin-left: 1px;
   padding: 0;
   list-style: none;
 }
 
 .breadcrumbs li {
   position: relative;
-  margin-right: 40px;
+  margin-right: 30px;
   padding-top: 2px;
 }
 
@@ -2191,7 +2190,8 @@ input:disabled ~ span {
 /* Сортировка */
 
 .sorting-title {
-  padding-left: 20px;
+  padding-left: 15px;
+  padding-top: 5px;
 }
 
 .sorting-items {
@@ -2199,6 +2199,7 @@ input:disabled ~ span {
   flex-wrap: wrap;
   width: 460px;
   line-height: 18px;
+  padding-top: 10px;
 }
 
 .sorting-list a {
