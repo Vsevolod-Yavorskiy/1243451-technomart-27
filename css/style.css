@@ -353,15 +353,6 @@ img {
   flex-basis: 0;
 }
 
-.column-delivery {
-  flex-grow: 3.3;
-  flex-basis: 0;
-}
-
-.column-delivery-2 {
-  flex-grow: 6.7;
-  flex-basis: 0;
-}
 
 .column-about-company {
   flex-grow: 6.7;
@@ -420,6 +411,8 @@ img {
 
 .service-description {
   position: relative;
+  flex-grow: 6.7;
+  flex-basis: 0;
 }
 
 .service-description h3 {
@@ -1452,6 +1445,8 @@ input[type="radio"].visually-hidden {
   padding: 0;
   padding-top: 8px;
   list-style: none;
+  flex-grow: 3.3;
+  flex-basis: 0;
 }
 
 .services-list:after {
