@@ -133,9 +133,8 @@ img {
 
 .header-search svg {
   position: absolute;
-  top: 50%;
+  top: 11px;
   left: 17px;
-  margin-top: -7px;
 }
 
 .header-search path {
@@ -271,11 +270,10 @@ img {
 .user-bookmarks::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 11px;
   left: 17px;
   width: 14px;
   height: 16px;
-  margin-top: -10px;
   background-image: url("../img/icon-bookmark.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -303,11 +301,10 @@ img {
 .user-cart::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 11px;
   left: 19px;
   width: 15px;
   height: 15px;
-  margin-top: -9px;
   background-image: url("../img/cart-icon.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1417,9 +1414,10 @@ input[type="radio"].visually-hidden {
   margin-bottom: 35px;
   padding-top: 10px;
   font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
   font-family: "Cuprum", "Tahoma", sans-serif;
   text-transform: uppercase;
-  letter-spacing: -1px;
 }
 
 .service-back {
@@ -1436,6 +1434,7 @@ input[type="radio"].visually-hidden {
 }
 
 .services-info {
+  width: 410px;
   margin: 0;
   margin-bottom: 62px;
   font-size: 13px;
