@@ -1242,18 +1242,15 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
-/*Popular */
-
-.popular-products {
-  margin-bottom: 20px;
-}
-
 .popular-title-row {
   justify-content: space-between;
   align-items: center;
-  height: 89px;
+  font-size: 30px;
   margin-bottom: 20px;
-  padding: 29px 29px;
+  padding-left: 30px;
+  padding-right: 24px;
+  padding-top: 25px;
+  padding-bottom: 26px;
   background-color: #f9f5f0;
 }
 
@@ -1268,7 +1265,7 @@ input[type="radio"].visually-hidden {
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #3d546e;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  font-weight: 400;
 }
 
 /* цвет для названий товаров */
@@ -1297,7 +1294,6 @@ input[type="radio"].visually-hidden {
 
 .popular-brands {
   margin-bottom: 85px;
-  margin-top: -25px;
 }
 
 .popular-brands-list {
@@ -1346,7 +1342,7 @@ input[type="radio"].visually-hidden {
 
 .button {
   display: inline-block;
-  padding: 11px 50px;
+  padding: 10px 50px;
   font: inherit;
   font-size: 14px;
   line-height: 18px;
@@ -2481,7 +2477,6 @@ input:disabled ~ span {
   border-top: 7px solid #ee3643;
   overflow: auto;
   background-color: #ffffff;
-  -webkit-animation: fade 0.2s both;
   animation: fade 0.2s both;
 }
 
