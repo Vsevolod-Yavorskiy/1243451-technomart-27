@@ -2486,6 +2486,7 @@ input:disabled ~ span {
 
 .modal-map {
   position: absolute;
+  text-align: center;
   top: 2350px;
   left: 250px;
   display: none;
