@@ -1505,12 +1505,14 @@ input[type="radio"].visually-hidden {
   font-size: 30px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  font-weight: 400;
+  font-size: 30px;
 }
 
 .about-company p {
   margin: 0;
   padding-top: 15px;
+  width: 500px;
 }
 
 .about-company p:last-of-type {
