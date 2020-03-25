@@ -2466,13 +2466,12 @@ input:disabled ~ span {
 
 .modal {
   position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 100;
   width: 620px;
-  min-height: 423px;
+  height: 423px;
   margin: auto;
   border-top: 7px solid #ee3643;
   overflow: auto;
@@ -2650,7 +2649,7 @@ input:disabled ~ span {
 .contact-form-label {
   display: inline-block;
   vertical-align: middle;
-  width: 220px;
+  width: 220p;
   margin: 0 0 21px 0;
   padding: 0;
   font-size: 18px;
