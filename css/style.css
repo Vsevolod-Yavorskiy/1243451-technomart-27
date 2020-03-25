@@ -1500,7 +1500,6 @@ input[type="radio"].visually-hidden {
 .contacts-title {
   margin: 0;
   margin-bottom: 18px;
-  margin-left: 5px;
   font-size: 30px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   text-transform: uppercase;
@@ -1508,10 +1507,16 @@ input[type="radio"].visually-hidden {
   line-height: 30px;
 }
 
+.about-company h2 {
+  margin: 0;
+  width: 500px;
+  margin-bottom: 25px;
+}
+
 .about-company p {
   margin: 0;
-  padding-top: 15px;
   width: 500px;
+  margin-bottom: 24px;
 }
 
 .about-company p:last-of-type {
