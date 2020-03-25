@@ -383,13 +383,12 @@ img {
 }
 
 .column-sort {
-  flex-grow: 7.6;
-  flex-basis: 0;
+  width: 700px;
 }
 
 .column-catalog {
-  flex-grow: 2.4;
-  flex-basis: 0;
+  width: 220px;
+  margin-right: 20px;
 }
 
 #service-delivery:checked ~ .row .delivery-menu-item,
@@ -772,6 +771,10 @@ input[type="radio"].visually-hidden {
 .catalog {
   margin-bottom: 33px;
   padding-top: 55px;
+}
+
+.catalog-link {
+  margin-bottom: 33px;
 }
 
 .catalog-menu {
@@ -1837,7 +1840,6 @@ input[type="radio"].visually-hidden {
   background-color: #f7f3ec;
   width: 220px;
   height: 38px;
-  margin-top: 60px;
 }
 
 .filters-header::after {
@@ -1860,7 +1862,7 @@ input[type="radio"].visually-hidden {
 .catalog-name-row {
   justify-content: space-between;
   align-items: center;
-  margin-bottom: -40px;
+  margin-bottom: 20px;
   padding: 25px 28px;
   background-color: #f4f7f9;
 }
