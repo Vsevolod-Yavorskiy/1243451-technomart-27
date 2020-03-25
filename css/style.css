@@ -430,6 +430,7 @@ img {
   z-index: 1;
   margin: 0;
   margin-bottom: 30px;
+  width: 300px;
 }
 
 .service-description .delivery::before {
