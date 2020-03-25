@@ -2578,6 +2578,14 @@ input:disabled ~ span {
   margin-right: 0;
 }
 
+.modal-btn:hover {
+  background-color: #ca2c37;
+}
+
+.modal-btn:active {
+  background-color: #ba2732;
+}
+
 .modal-btn-2 {
   display: inline-block;
   vertical-align: middle;
@@ -2670,6 +2678,16 @@ input:disabled ~ span {
   font-family: "PT Sans", "Arial", sans-serif;
   border-radius: 3px;
   outline: none;
+}
+
+.contact-form-item:hover {
+  border: solid 2px #b5b5b5;
+  color: #999999;
+}
+
+.contact-form-item:active {
+  border: solid 2px #ee3643;
+  color: #999999;
 }
 
 .text-field {
