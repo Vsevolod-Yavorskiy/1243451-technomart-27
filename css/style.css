@@ -151,7 +151,6 @@ img {
   color: #ffffff;
 }
 
-
 .header-company {
   width: auto;
   margin: 0;
@@ -255,7 +254,7 @@ img {
 .count-active,
 .count-active:hover,
 .count-active:active {
-    background-color: #ee3643;
+  background-color: #ee3643;
 }
 
 .user-bookmarks {
@@ -353,7 +352,6 @@ img {
   flex-basis: 0;
 }
 
-
 .column-about-company {
   flex-grow: 6.7;
   flex-basis: 0;
@@ -417,7 +415,8 @@ img {
 
 .service-description h3 {
   margin: 0;
-  margin-left: 8px;
+  margin-bottom: 15px;
+  margin-left: 10px;
   font-size: 36px;
   line-height: 1;
   font-weight: 400;
@@ -430,9 +429,8 @@ img {
   position: relative;
   z-index: 1;
   margin: 0;
-  margin-top: 22px;
   margin-bottom: 30px;
-  padding-right: 300px;
+  width: 390px;
 }
 
 .service-description .delivery::before {
@@ -675,7 +673,6 @@ img {
 
 /* menu-navigation */
 
-
 .main-nav-catalog {
   width: 940px;
   margin: 0 auto;
@@ -703,7 +700,7 @@ img {
   text-align: center;
   font-size: 17px;
   line-height: 17px;
-  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   font-weight: 400;
   text-decoration: none;
   color: #ffffff;
@@ -719,7 +716,6 @@ img {
   color: rgba(255, 255, 255, 0.5);
   background-color: #1d2739;
 }
-
 
 /* Середина */
 
@@ -819,7 +815,7 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.1);
-  text-align: left;
+  text-align: center;
 }
 
 .catalog-menu-btn:hover,
@@ -905,8 +901,7 @@ input[type="radio"].visually-hidden {
 
 /* для каталога */
 
-
-.catalog-items-1{
+.catalog-items-1 {
   margin-bottom: 30px;
 }
 
@@ -922,7 +917,6 @@ input[type="radio"].visually-hidden {
 .catalog-items-1 .product-card:nth-of-type(3n) {
   margin-right: 0;
 }
-
 
 .catalog-items {
   display: flex;
@@ -1007,8 +1001,6 @@ input[type="radio"].visually-hidden {
   color: #000000;
   background-color: #ffffff;
 }
-
-
 
 .product-card-actions-bookmark {
   width: 135px;
@@ -1106,7 +1098,7 @@ input[type="radio"].visually-hidden {
   background-position: 30% 10%;
   width: 150px;
   height: 38px;
-  transform: translate(35px,5px);
+  transform: translate(35px, 5px);
   color: #ffffff;
   padding-top: 10px;
   padding-left: 1px;
@@ -1167,19 +1159,18 @@ input[type="radio"].visually-hidden {
   outline: none;
 }
 
-
 .icon-basket:before {
-    position: absolute;
-    left: 12px;
-    opacity: 0.3;
+  position: absolute;
+  left: 12px;
+  opacity: 0.3;
 }
 
 .icon-basket:hover:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .icon-basket:active:before {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 .product-card::before {
@@ -1207,7 +1198,6 @@ input[type="radio"].visually-hidden {
 }
 
 /* Catalog-Header */
-
 
 .catalog-header {
   display: flex;
@@ -1460,7 +1450,7 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/shadow.png");
   background-repeat: no-repeat;
   background-position: 0 0;
-  opacity: 0.;
+  opacity: 0;
 }
 
 .services-list label {
@@ -1479,6 +1469,7 @@ input[type="radio"].visually-hidden {
 
 .services-list li {
   width: 240px;
+  height: 61px;
   padding-top: 12px;
   padding-bottom: 19px;
   padding-left: 23px;
@@ -1502,6 +1493,10 @@ input[type="radio"].visually-hidden {
   padding-right: 20px;
 }
 
+.contacts-title {
+  padding-left: 10px;
+}
+
 .about-company-title,
 .contacts-title {
   margin: 0;
@@ -1515,7 +1510,7 @@ input[type="radio"].visually-hidden {
 
 .about-company p {
   margin: 0;
-  margin-bottom: 30px;
+  padding-top: 15px;
 }
 
 .about-company p:last-of-type {
@@ -1565,10 +1560,7 @@ input[type="radio"].visually-hidden {
 
 .contacts-button {
   width: 300px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: -31px;
-  margin-left: 8px;
+  margin-left: 15px;
 }
 
 .button-map {
@@ -1839,10 +1831,10 @@ input[type="radio"].visually-hidden {
   margin-top: 60px;
 }
 
-.filters-header::after{
-  content:"";
-  min-height:inherit;
-  font-size:0;
+.filters-header::after {
+  content: "";
+  min-height: inherit;
+  font-size: 0;
   display: block;
 }
 
@@ -1853,7 +1845,6 @@ input[type="radio"].visually-hidden {
   font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
 }
-
 
 /* Каталог */
 
@@ -2034,7 +2025,7 @@ input:disabled ~ span {
 }
 
 .work-radio:disabled,
-.radio-indicator:disabled{
+.radio-indicator:disabled {
   color: rgba 0 0 0, 0.4;
   opacity: 0.3;
 }
@@ -2117,14 +2108,14 @@ input:disabled ~ span {
 }
 
 .catalog-btn {
-    margin: 0;
-    padding: 0;
-    font-size: 13px;
-    line-height: 18px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #000000;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
 }
 
 .catalog-btn {
@@ -2193,7 +2184,6 @@ input:disabled ~ span {
 .range-toggle-max {
   left: 80%;
 }
-
 
 /* Фильтр */
 
@@ -2323,7 +2313,8 @@ input:disabled ~ span {
   font-size: 13px;
   font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
-  padding-left: 10px;
+  padding-left: 13px;
+  padding-top: 8px;
 }
 
 .font-delivery-2 {
@@ -2339,7 +2330,7 @@ input:disabled ~ span {
   margin-right: 20px;
 }
 
-.slider input[type=radio] {
+.slider input[type="radio"] {
   display: none;
 }
 
@@ -2367,7 +2358,6 @@ input:disabled ~ span {
   left: 291px;
   z-index: 1;
   text-align: center;
-
 }
 
 .slider-controls label {
@@ -2389,7 +2379,6 @@ input:disabled ~ span {
 
 #slider-btn-1:checked ~ .slider-inner .slider-two {
   transform: translate(0);
-
 }
 
 #slider-btn-2:checked ~ .slider-inner .slider-two {
@@ -2435,7 +2424,7 @@ input:disabled ~ span {
   top: 43px;
   left: 25px;
   font-size: 18px;
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: "Cuprum", "Tahoma", sans-serif;
   color: #ffffff;
 }
 
@@ -2508,9 +2497,8 @@ input:disabled ~ span {
 }
 
 .company-map {
-  padding-top: 10px;
-  margin-bottom: 11px;
-  margin-left: 10px;
+  padding-top: 25px;
+  margin-left: 15px;
 }
 
 .modal-contact {
@@ -2535,7 +2523,7 @@ input:disabled ~ span {
 
 .modal-close:before,
 .modal-close:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   right: 17px;
@@ -2593,7 +2581,6 @@ input:disabled ~ span {
 .modal-btn-2:last-child {
   margin-right: 0;
 }
-
 
 .modal-close-btn {
   padding: 0;
@@ -2668,7 +2655,7 @@ input:disabled ~ span {
   border: 2px solid #cccccc;
   font-size: 13px;
   line-height: 18px;
-  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   border-radius: 3px;
   outline: none;
 }
