@@ -912,8 +912,10 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-items-1 {
-  padding-top: 8px;
-  font-size: 0;
+  padding-top: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  g
 }
 
 .catalog-items-1 .product-card:nth-of-type(3n) {
@@ -962,12 +964,9 @@ input[type="radio"].visually-hidden {
   position: relative;
   width: 220px;
   min-height: 318px;
-  margin-right: 17px;
-  margin-bottom: 21px;
-  display: inline-block;
+  margin-right: 20px;
   font-size: 17px;
   line-height: 18px;
-  vertical-align: top;
   text-align: center;
   border: 1px solid #e5e5e5;
 }
@@ -2319,6 +2318,10 @@ input:disabled ~ span {
 
 .sorting-items .sorting-buttons {
   width: 59px;
+}
+
+.sorting-btn-1 {
+  margin-right: 20px;
 }
 
 .font-delivery {
