@@ -1563,7 +1563,7 @@ input[type="radio"].visually-hidden {
 }
 
 .contacts img {
-  margin-bottom: 37px;
+  display: block;
 }
 
 .contacts-button {
@@ -2481,8 +2481,7 @@ input:disabled ~ span {
 }
 
 .open-modal-map {
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
 }
 
 .modal-map {
@@ -2511,6 +2510,7 @@ input:disabled ~ span {
 
 .company-map {
   margin-left: 15px;
+  margin-bottom: 40px;
 }
 
 .modal-contact {
