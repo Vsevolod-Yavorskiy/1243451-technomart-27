@@ -2094,6 +2094,7 @@ input:disabled ~ span {
 
 .paginator-link:hover {
   border-color: #bdc6ca;
+  color: #000000;
 }
 
 .paginator-link:active {
