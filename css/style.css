@@ -1493,7 +1493,7 @@ input[type="radio"].visually-hidden {
 }
 
 .contacts-title {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 .about-company-title,
@@ -1582,7 +1582,7 @@ input[type="radio"].visually-hidden {
   background-color: #3d546e;
 }
 .page-footer-bottom {
-  padding-top: 30px;
+  padding-top: 35px;
   padding-bottom: 20px;
   background-color: #33445a;
 }
@@ -1601,7 +1601,7 @@ input[type="radio"].visually-hidden {
 }
 
 .nav-footer-row-1 {
-  margin-bottom: 32px;
+  margin-bottom: 29px;
 }
 
 .footer-logo {
@@ -1675,6 +1675,7 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
   font-family: "Cuprum", "Tahoma", sans-serif;
   color: #f4f8fa;
+  max-width: 325px;
 }
 
 .footer-social {
