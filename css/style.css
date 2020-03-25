@@ -2240,6 +2240,9 @@ input:disabled ~ span {
   position: relative;
   color: rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
+  text-align: left;
+  font-family: "PT Sans", "Arial", sans-serif;
+  right: 5px;
 }
 
 .sorting-list a::after {
