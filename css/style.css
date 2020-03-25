@@ -1492,6 +1492,10 @@ input[type="radio"].visually-hidden {
   padding-right: 20px;
 }
 
+.contacts-title {
+  padding-left: 10px;
+}
+
 .about-company-title,
 .contacts-title {
   margin: 0;
@@ -1505,7 +1509,7 @@ input[type="radio"].visually-hidden {
 
 .about-company p {
   margin: 0;
-  margin-bottom: 30px;
+  padding-top: 15px;
 }
 
 .about-company p:last-of-type {
@@ -1555,10 +1559,7 @@ input[type="radio"].visually-hidden {
 
 .contacts-button {
   width: 300px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: -31px;
-  margin-left: 8px;
+  margin-left: 15px;
 }
 
 .button-map {
@@ -2311,7 +2312,8 @@ input:disabled ~ span {
   font-size: 13px;
   font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
-  padding-left: 10px;
+  padding-left: 13px;
+  padding-top: 8px;
 }
 
 .font-delivery-2 {
@@ -2494,9 +2496,8 @@ input:disabled ~ span {
 }
 
 .company-map {
-  padding-top: 10px;
-  margin-bottom: 11px;
-  margin-left: 10px;
+  padding-top: 25px;
+  margin-left: 15px;
 }
 
 .modal-contact {
