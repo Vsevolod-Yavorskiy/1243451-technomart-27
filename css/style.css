@@ -2685,7 +2685,7 @@ input:disabled ~ span {
   color: #999999;
 }
 
-.contact-form-item:active {
+.contact-form-item:focus {
   border: solid 2px #ee3643;
   color: #999999;
 }
