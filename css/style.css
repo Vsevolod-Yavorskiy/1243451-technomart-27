@@ -2472,7 +2472,7 @@ input:disabled ~ span {
   bottom: 0;
   z-index: 100;
   width: 620px;
-  height: 423px;
+  min-height: 423px;
   margin: auto;
   border-top: 7px solid #ee3643;
   overflow: auto;
@@ -2650,7 +2650,7 @@ input:disabled ~ span {
 .contact-form-label {
   display: inline-block;
   vertical-align: middle;
-  width: 100%;
+  width: 220px;
   margin: 0 0 21px 0;
   padding: 0;
   font-size: 18px;
@@ -2668,7 +2668,7 @@ input:disabled ~ span {
 }
 
 .contact-form-item {
-  width: 220px;
+  width: 100%;
   margin: 10px 0 0 0;
   padding: 7px 15px 8px 15px;
   border: 2px solid #cccccc;
