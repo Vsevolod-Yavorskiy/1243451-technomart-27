@@ -2485,13 +2485,13 @@ input:disabled ~ span {
 }
 
 .modal-map {
-  position: absolute;
-  text-align: center;
-  top: 2350px;
-  left: 250px;
-  display: none;
+  position: fixed;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 940px;
   height: 446px;
+  z-index: 10;
   box-shadow: 0 0 15px 1px rgba(35, 31, 32, 0.5);
   background: url(../img/map-big.jpg) no-repeat;
 }
