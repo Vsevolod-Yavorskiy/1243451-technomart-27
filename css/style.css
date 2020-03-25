@@ -2489,6 +2489,7 @@ input:disabled ~ span {
   top: 120px;
   left: 50%;
   transform: translateX(-50%);
+  display: none;
   width: 940px;
   height: 446px;
   z-index: 10;
