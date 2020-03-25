@@ -415,7 +415,8 @@ img {
 
 .service-description h3 {
   margin: 0;
-  margin-left: 8px;
+  margin-bottom: 15px;
+  margin-left: 10px;
   font-size: 36px;
   line-height: 1;
   font-weight: 400;
@@ -428,9 +429,7 @@ img {
   position: relative;
   z-index: 1;
   margin: 0;
-  margin-top: 22px;
   margin-bottom: 30px;
-  padding-right: 300px;
 }
 
 .service-description .delivery::before {
@@ -1469,6 +1468,7 @@ input[type="radio"].visually-hidden {
 
 .services-list li {
   width: 240px;
+  height: 61px;
   padding-top: 12px;
   padding-bottom: 19px;
   padding-left: 23px;
