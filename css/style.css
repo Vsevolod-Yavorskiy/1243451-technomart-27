@@ -1521,6 +1521,7 @@ input[type="radio"].visually-hidden {
 
 .about-company p:last-of-type {
   margin-bottom: 20px;
+  width: 400px;
 }
 
 .about-company-button {
@@ -1558,6 +1559,7 @@ input[type="radio"].visually-hidden {
 
 .contacts p {
   margin-bottom: 30px;
+  width: 230px;
 }
 
 .contacts img {
@@ -2507,7 +2509,6 @@ input:disabled ~ span {
 }
 
 .company-map {
-  padding-top: 25px;
   margin-left: 15px;
 }
 
